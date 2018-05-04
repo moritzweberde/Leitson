@@ -317,6 +317,9 @@ input[type=range]:focus {
     float: left;
     display: block;
   }
+  .topnav a.icon:hover {
+	  border-bottom: solid 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -333,6 +336,9 @@ input[type=range]:focus {
 	margin: 0 auto;
 	margin-top: 10px;
 	z-index: 101;
+  }
+  .topnav.responsive a:hover {
+	  border-bottom: solid 0px;
   }
 }
 
