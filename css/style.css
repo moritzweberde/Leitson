@@ -319,6 +319,7 @@ input[type=range]:focus {
   }
   .topnav a.icon:hover {
 	  border-bottom: solid 0px;
+	  background-color: transparent;
   }
 }
 
@@ -336,9 +337,6 @@ input[type=range]:focus {
 	margin: 0 auto;
 	margin-top: 10px;
 	z-index: 101;
-  }
-  .topnav.responsive a:hover {
-	  border-bottom: solid 0px;
   }
 }
 
