@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<title>LEITSON</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+	<div class="container hidden" id="title">
+		<div data-text="Leitson" class="glitch"></div>
+		<div class="main">Leitson</div>
+		<p>A DJ group which tries to reach new heights</p>
+	</div>
+	<p class="hidden" id="header"><a href="">Facebook</a> <a href="">Instagram</a> <a href="javascript:void(0)" id="musicplayerbtn">Music Player</a> <a href="javascript:void(0)" onclick="return Impressum();">Impressum</a></p>
+
+	<div class="player hidden">
+		<hr />
+		<p class="mp-title">MUSIC BY LEITSON</p>
+		<div class="controls">
+			<em amplitude-song-info="name" amplitude-main-song-info="true" class="song-name" id="songname"></em>
+			<br />
+			<progress class="amplitude-song-played-progress" amplitude-main-song-played-progress="true" id="song-played-progress"></progress>
+			<br />
+			<em class="amplitude-prev"><i class="fa fa-step-backward fa-2x"></i></em>
+			<em class="amplitude-play-pause" amplitude-main-play-pause="true"><i class="fa fa-play fa-2x" id="play"></i></em>
+			<em class="amplitude-next"><i class="fa fa-step-forward fa-2x"></i></em>
+			<br />
+			<input type="range" class="amplitude-volume-slider" />
+		</div>
+	</div>
+
+
+
+
+
+</body>
+
+<script>
+
+function Impressum() {
+	swal({
+	  title: '<p class="im-title">Impressum</p>',
+	  html:
+	    '<p class="im-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>',
+	  showCloseButton: false,
+	  showCancelButton: false,
+	  focusConfirm: false,
+	  confirmButtonText:
+	    'X',
+	  confirmButtonAriaLabel: '',
+	  cancelButtonText:
+	  '',
+	  cancelButtonAriaLabel: '',
+	})
+}
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="libaries/amplitude.js"></script>
+<script type="text/javascript" src="libaries/foundation.min.js"></script>
+<script src="js/player.js"></script>
+
+</html>
