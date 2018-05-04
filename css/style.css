@@ -332,6 +332,10 @@ input[type=range]:focus {
 	padding: 14px 16px;
 	margin: 0 auto;
 	margin-top: 10px;
-	opacity: 1;
+	z-index: 101;
   }
+}
+
+.center {
+	text-align: center;
 }
