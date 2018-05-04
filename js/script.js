@@ -31,8 +31,8 @@ $(document).ready(function() {
 
 });
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
+function mobilenav() {
+    var x = document.getElementById("Topnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {

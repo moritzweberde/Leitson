@@ -325,11 +325,13 @@ input[type=range]:focus {
     position: relative;
   }
   .topnav.responsive a {
+	position: relative;
     float: none;
     display: block;
 	background-color: black;
 	padding: 14px 16px;
 	margin: 0 auto;
 	margin-top: 10px;
+	opacity: 1;
   }
 }
