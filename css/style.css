@@ -327,10 +327,9 @@ input[type=range]:focus {
   .topnav.responsive a {
     float: none;
     display: block;
-	background-color: rgb(0,0,0, 0.8);
+	background-color: black;
 	padding: 14px 16px;
 	margin: 0 auto;
 	margin-top: 10px;
-	width: inherit;
   }
 }
