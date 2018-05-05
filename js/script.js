@@ -27,6 +27,7 @@ $(document).ready(function() {
    $('.amplitude-prev').click(function() {
 	$('#play').removeClass('fa-play').addClass('fa-pause');
    });
+   
 
 });
 

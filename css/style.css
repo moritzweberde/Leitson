@@ -348,6 +348,9 @@ input[type=range]:focus {
 	z-index: 101;
 	text-align: center;
   }
+  .topnav.responsive a:hover {
+	  border-bottom: solid 0px;
+  }
 
 }
 
