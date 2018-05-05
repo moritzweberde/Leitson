@@ -329,8 +329,8 @@ input[type=range]:focus {
 	  position: relative;
 	  background-color: black;
 	  z-index: 101;
-	  width: 110%;
-	  margin-left: -8px;
+	  width: 115%;
+	  margin-left: -15px;
 	  margin-top: -10px;
 	  overflow: hidden;
 	  height: 100vh;
@@ -350,6 +350,8 @@ input[type=range]:focus {
   }
   .topnav.responsive a:hover {
 	  border-bottom: solid 0px;
+	  background-color: white;
+	  color: black;
   }
 
 }
