@@ -316,6 +316,7 @@ input[type=range]:focus {
   .topnav a.icon {
     float: left;
     display: block;
+	padding: 0;
   }
   .topnav a.icon:hover {
 	  border-bottom: solid 0px;
@@ -324,7 +325,16 @@ input[type=range]:focus {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+	  position: relative;
+	  background-color: black;
+	  z-index: 101;
+	  width: 110%;
+	  margin-left: -8px;
+	  margin-top: -10px;
+	  overflow: hidden;
+	  height: 100vh;
+  }
   .topnav.responsive .icon {
     position: relative;
   }
@@ -333,13 +343,18 @@ input[type=range]:focus {
     float: none;
     display: block;
 	background-color: black;
-	padding: 14px 16px;
-	margin: 0 auto;
+	padding: 14px 20px;
 	margin-top: 10px;
 	z-index: 101;
+	text-align: center;
   }
+
 }
 
 .center {
 	text-align: center;
+}
+
+.transparent {
+	background-color: transparent;
 }

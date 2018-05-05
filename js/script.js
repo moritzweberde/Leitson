@@ -28,7 +28,6 @@ $(document).ready(function() {
 	$('#play').removeClass('fa-play').addClass('fa-pause');
    });
 
-
 });
 
 function mobilenav() {

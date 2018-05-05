@@ -1,6 +1,6 @@
 Amplitude.init({
 	"songs": [{
-			"name": "Layla",
+			"name": "Layla (Remix)",
 			"artist": "Leitson",
 			"album": ".",
 			"url": "js/song.mp3",
@@ -22,8 +22,6 @@ Amplitude.init({
 		}
 	]
 });
-
-
 
 document.getElementById('song-played-progress').addEventListener('click', function(e) {
 	var offset = this.getBoundingClientRect();
