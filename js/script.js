@@ -11,6 +11,7 @@ $(document).ready(function() {
 			$("#title").fadeOut(1500);
 			$(".player").fadeIn(3000);
 		}
+		mobilenav();
 	});
 
 	$('#play').click(function() {
@@ -27,7 +28,7 @@ $(document).ready(function() {
    $('.amplitude-prev').click(function() {
 	$('#play').removeClass('fa-play').addClass('fa-pause');
    });
-   
+
 
 });
 
