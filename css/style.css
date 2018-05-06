@@ -339,7 +339,7 @@ input[type=range]:focus {
 @media screen and (max-width: 600px) {
 	.topnav.responsive {
 		position: relative;
-		background-color: black;
+		background-color: #032830;
 		z-index: 101;
 		width: 115%;
 		margin-left: -15px;
@@ -354,7 +354,7 @@ input[type=range]:focus {
 		position: relative;
 		float: none;
 		display: block;
-		background-color: black;
+		background-color: #032830;  /* #024C59 */
 		padding: 14px 20px;
 		margin-top: 10px;
 		z-index: 101;
@@ -363,7 +363,7 @@ input[type=range]:focus {
 	.topnav.responsive a:hover {
 		border-bottom: solid 0px;
 		background-color: white;
-		color: black;
+		color: #032830;
 	}
 	.amplitude-volume-slider {
 		display: none;
