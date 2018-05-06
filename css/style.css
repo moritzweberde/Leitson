@@ -29,7 +29,9 @@ a {
 
 a:hover {
 	border-bottom: solid 3px white;
+	transition-duration: 0.2s;
 }
+
 span:hover {
 	border-bottom: solid 3px white;
 	cursor: pointer;
