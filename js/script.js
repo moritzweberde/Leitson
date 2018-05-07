@@ -15,28 +15,36 @@ $(document).ready(function() {
 	});
 
 	$('#play').click(function() {
-	 $('#play').toggleClass('fa-play fa-pause');
-   });
+		$('#play').toggleClass('fa-play fa-pause');
+	});
 
-   $('.amplitude-next').click(function() {
-	   $('#play').removeClass('fa-play').addClass('fa-pause');
-	   if ($('#songname').text() == 'Layla') {
-	   	$('#play').removeClass('fa-pause').addClass('fa-play');
-	   }
-   });
+	$('.amplitude-next').click(function() {
+		$('#play').removeClass('fa-play').addClass('fa-pause');
+		if ($('#songname').text() == 'Layla') {
+			$('#play').removeClass('fa-pause').addClass('fa-play');
+		}
+	});
 
-   $('.amplitude-prev').click(function() {
-	$('#play').removeClass('fa-play').addClass('fa-pause');
-   });
+	$('.amplitude-prev').click(function() {
+		$('#play').removeClass('fa-play').addClass('fa-pause');
+	});
+
+	$(document).ready(function() {
+		$("a").on("click touchend", function(e) {
+			var el = $(this);
+			var link = el.attr("href");
+			window.location = link;
+		});
+	});
 
 
 });
 
 function mobilenav() {
-    var x = document.getElementById("Topnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+	var x = document.getElementById("Topnav");
+	if (x.className === "topnav") {
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
+	}
 }
