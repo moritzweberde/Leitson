@@ -29,13 +29,11 @@ $(document).ready(function() {
 		$('#play').removeClass('fa-play').addClass('fa-pause');
 	});
 
-	$(document).ready(function() {
 		$("a").on("click touchend", function(e) {
 			var el = $(this);
 			var link = el.attr("href");
 			window.location = link;
 		});
-	});
 
 
 });
