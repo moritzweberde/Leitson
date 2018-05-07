@@ -29,12 +29,6 @@ $(document).ready(function() {
 		$('#play').removeClass('fa-play').addClass('fa-pause');
 	});
 
-		$("a").on("click touchend", function(e) {
-			var el = $(this);
-			var link = el.attr("href");
-			window.location = link;
-		});
-
 
 });
 
