@@ -7,9 +7,11 @@ $(document).ready(function() {
 		if ($('.player').is(':visible')) {
 			$("#title").fadeIn(1500);
 			$(".player").fadeOut(3000);
+			 $("#musicplayerbtn").text("Music Player");
 		} else {
 			$("#title").fadeOut(1500);
 			$(".player").fadeIn(3000);
+			 $("#musicplayerbtn").text("Back to Home");
 		}
 		mobilenav();
 	});
