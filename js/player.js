@@ -1,9 +1,9 @@
 Amplitude.init({
 	"songs": [{
-			"name": "Layla (Remix)",
+			"name": "Caution",
 			"artist": "Leitson",
 			"album": ".",
-			"url": "js/song.mp3",
+			"url": "https://soundcloud.com/leitshilgerson/leits-hilgerson-caution-original-mix",
 			"cover_art_url": "."
 		},
 		{
