@@ -342,7 +342,7 @@ input[type=range]:focus {
 		position: relative;
 		float: none;
 		display: block;
-		background-color: #032830;  /* #024C59 */
+		background-color: #032830; 
 		padding: 14px 20px;
 		margin-top: 10px;
 		z-index: 101;
