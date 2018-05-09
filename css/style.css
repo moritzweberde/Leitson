@@ -54,16 +54,6 @@ span:hover {
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 640px) {
-	.font, .main, .glitch:before, .glitch:after {
-		font-size: 7rem;
-	}
-	#header {
-		text-align: left;
-		margin-left: 5px;
-	}
-}
-
 .text, .glitch {
 	width: 100%;
 	height: 100%;
@@ -365,6 +355,13 @@ input[type=range]:focus {
 	}
 	.amplitude-volume-slider {
 		display: none;
+	}
+	.font, .main, .glitch:before, .glitch:after {
+		font-size: 7rem;
+	}
+	#header {
+		text-align: left;
+		margin-left: 5px;
 	}
 }
 
