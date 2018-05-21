@@ -47,7 +47,7 @@ span:hover {
 
 .font, .main, .glitch:before, .glitch:after {
 	font-family: 'Oswald', sans-serif;
-	font-size: 15rem;
+	font-size: 4rem; 
 	line-height: 14rem;
 	width: 100%;
 	text-align: center;
